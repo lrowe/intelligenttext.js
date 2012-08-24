@@ -10,7 +10,7 @@
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['use!underscore', 'jquery'], function (_, jQuery) {
+        define(['underscore', 'jquery'], function (_, jQuery) {
             return factory(_, jQuery);
         });
     } else {
